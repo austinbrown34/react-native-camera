@@ -9,13 +9,15 @@ import {
   StyleSheet,
   findNodeHandle,
   requireNativeComponent,
-  ViewPropTypes,
+  // ViewPropTypes,
   ActivityIndicator,
   View,
   Text,
   UIManager,
   PermissionsAndroid,
 } from 'react-native';
+
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const requestPermissions = async (
   hasVideoAndAudio,
